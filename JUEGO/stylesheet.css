@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #292F36, #0D0D0D);
+    color: #ECEFF1;
+}
+h1 {
+    font-size: 36px;
+    color: #ECEFF1;
+    text-shadow: 2px 2px 4px #000000;
+}
+p {
+    font-size: 18px;
+    margin-top: -10px;
+    color: #9E9E9E;
+}
+#start-container {
+    margin: 50px auto;
+}
+#start-button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#start-button:hover {
+    background-color: #FF7043;
+}
+#word-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+#attempts {
+    font-size: 24px;
+    color: #ECEFF1;
+}
+#word {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #FF5722;
+}
+#letters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.letter {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #ECEFF1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.letter:hover {
+    background-color: #FF7043;
+}
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FF5722;
+}
+#restart-button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+}
+#restart-button:hover {
+    background-color: #FF7043;
+}
+#creditos {
+    font-size: 16px;
+    color: #9E9E9E;
+    margin-top: 30px;
+}
+#creditos strong {
+    color: #FF5722;
+}
